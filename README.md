@@ -24,7 +24,7 @@ https://github.com/kgarton/property_search.git
 2. Install the required dependencies using Composer:
 composer install
 
-3. Configure the database connection in `config/app.php`
+3. Configure the database connection by creating the config/app_local.php file.
 
 4. Run the database migration to set up the properties table:
 bin/cake migrations migrate
